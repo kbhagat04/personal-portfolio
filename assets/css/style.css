@@ -475,6 +475,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #3c4258;}
 .single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
 .single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
 
+/* Experience separator line */
+.experience-separator {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+    margin: 60px 0;
+    width: 90%;
+  }
+
 /*.timeline-horizontal-border*/
 .timeline-horizontal-border {
     display:  flex;
