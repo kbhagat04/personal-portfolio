@@ -389,7 +389,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: var(--text-color);}
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-.about {padding: 50px 0 100px;}
+.about {padding: 50px 0 100px;
+    border-top: 1px solid #e5ebf2;}
 .about-content {padding-top: 50px;}
 /*.single-about-txt*/
 .single-about-txt {
@@ -687,7 +688,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 --------------------------------------*/
 .profiles {
     padding:  50px 0 100px;
-    border:  1px solid #e5ebf2;
+    border-top:  1px solid #e5ebf2;
 }
 
 .profiles-content {padding-top: 100px;}
@@ -774,7 +775,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 --------------------------------------*/
 .portfolio {
     padding:  50px 0 50px;
-    border:  1px solid #e5ebf2;
+    border-top:  1px solid #e5ebf2;
 }
 
 .portfolio-content {padding-top: 100px;}
@@ -896,6 +897,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .contact {
     background: #f9fbfd;
     padding: 50px 0 100px;
+    border-top: 1px solid #e5ebf2;
 }
 .single-contact-box {padding-top: 100px;}
 .contact-form  .form-group {
@@ -959,7 +961,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /* contact-adress */
 .contact-add-head h3 {
     font-size:  24px;
-    color:  #3c4258;
+    color:  var(--text-color);
 }
 .contact-add-head p {
     font-size:  16px;
@@ -1157,4 +1159,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 [data-theme="dark"] .timeline-single-before:before {
     border-left-color: var(--bg-color);
+}
+
+/* for dark mode icons at bottom of contact form */
+[data-theme="dark"] .footer-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(60%) contrast(100%);
+}
+
+[data-theme="dark"] .footer-icon:hover {
+    filter: invert(11%) sepia(42%) saturate(6433%) hue-rotate(351deg) brightness(131%) contrast(105%);
 }
