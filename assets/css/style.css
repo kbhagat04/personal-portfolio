@@ -635,10 +635,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .main-timeline:before{
     content: "";
     width: 2px;
-    height: 86.6%;
+    height: 91.5%;
     background: #b2c1ce;
     position: absolute;
-    top: 1.5%;
+    top: 0.3%;
     left: 45.8%;
     z-index: -1;
 }
